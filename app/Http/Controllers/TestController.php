@@ -16,10 +16,7 @@ class TestController extends Controller
      */
     public function index()
     {
-        //TODO for index method
-        // Changes on the github repository
-        // Changes added by kavitha
-        // Changed added by kavitha on local 
+       // Added comment content in index
     }
 
     /**
