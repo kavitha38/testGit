@@ -1,0 +1,99 @@
+[33mcommit 2014165a0f800284ba43773f4dbf0bd9577d19df[m
+Author: chhavi <chhavibahekar@gmail.com>
+Date:   Wed Oct 19 16:52:25 2016 +0530
+
+    initial commit
+
+[1mdiff --git a/app/Http/Controllers/User/UserController.php b/app/Http/Controllers/User/UserController.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..62fb97c[m
+[1m--- /dev/null[m
+[1m+++ b/app/Http/Controllers/User/UserController.php[m
+[36m@@ -0,0 +1,87 @@[m
+[32m+[m[32m<?php[m
+[32m+[m
+[32m+[m[32mnamespace App\Http\Controllers;[m
+[32m+[m
+[32m+[m[32muse Illuminate\Http\Request;[m
+[32m+[m
+[32m+[m[32muse App\Http\Requests;[m
+[32m+[m[32muse App\Http\Controllers\Controller;[m
+[32m+[m
+[32m+[m[32mclass UserController extends Controller[m
+[32m+[m[32m{[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Display a listing of the resource.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function index()[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Show the form for creating a new resource.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function create()[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Store a newly created resource in storage.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @param  \Illuminate\Http\Request  $request[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function store(Request $request)[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Display the specified resource.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @param  int  $id[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function show($id)[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Show the form for editing the specified resource.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @param  int  $id[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function edit($id)[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Update the specified resource in storage.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @param  \Illuminate\Http\Request  $request[m
+[32m+[m[32m     * @param  int  $id[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function update(Request $request, $id)[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    /**[m
+[32m+[m[32m     * Remove the specified resource from storage.[m
+[32m+[m[32m     *[m
+[32m+[m[32m     * @param  int  $id[m
+[32m+[m[32m     * @return \Illuminate\Http\Response[m
+[32m+[m[32m     */[m
+[32m+[m[32m    public function destroy($id)[m
+[32m+[m[32m    {[m
+[32m+[m[32m        //[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
